@@ -6,14 +6,6 @@ Micro-Frontend that are developed using Angular-Elements can be either of the tw
  1. Single Page or widget Micro-Frontend (Microapp-A)
  2. Multi Page Micro-Frontend (Microapp-B)
 
-## Problem Statement
-In Micro-Frontend with multiple page, it is observed that the routing is not updated when Micro-Fronted is loaded again. 
-For eg, in this sample application, there are five pages in the driver. Page-One, Page-Three and Page-Five load Microapp-A. Page-Two and Page-Four load Microapp-B. 
-When Microapp-B is loaded again in Page-Four, the routes are not loaded properly.
-
-## Probable Cause
-Micro-Frontend is not getting destroyed properly. Due to this, the routes are not getting re-initialized. 
-
 ## How to run the Project
 
 To see the issue clearly, Go to `driver-app` folder and execute the below commands
